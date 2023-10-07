@@ -1,3 +1,5 @@
+package JavaLearnYourSelf;
+
 import java.util.Arrays;
 import java.lang.String;
 public class arraysorted {
