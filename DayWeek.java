@@ -1,5 +1,7 @@
+package JavaLearnYourSelf;
+
 import java.util.Scanner;
-public class day_ofweeks {
+public class DayWeek {
 
     public static void main(String[] args) {
         int inputNum;

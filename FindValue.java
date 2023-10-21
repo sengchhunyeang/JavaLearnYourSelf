@@ -1,5 +1,7 @@
+package JavaLearnYourSelf;
+
 import java.util.Scanner;
-public class findValue {
+public class FindValue {
 
     public static void main(String[] args) {
         long input1,input2 ,input3 ;
@@ -14,7 +16,7 @@ public class findValue {
         if(input1 > input2 && input1 > input3){
 
             System.out.println("Value Greatest is : "+input1);
-            }else if (input2>input1 && input2>input3){
+        }else if (input2>input1 && input2>input3){
             System.out.println("value Greatest is "+input2);
         }else if (input3>input1 && input3>input2){
             System.out.println("Value Greatest is "+input3);

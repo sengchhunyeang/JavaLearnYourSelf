@@ -1,3 +1,4 @@
+package JavaLearnYourSelf;
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -15,10 +16,10 @@ public class inputTwoValue {
 
 
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("Please input value a:");
+        System.out.print("Please input value a:\t");
         a=myScanner.nextInt();
 
-        System.out.println("Please input value b:");
+        System.out.print("Please input value b:\t");
         b=myScanner.nextInt();
         System.out.println("is value A: " +a);
 
@@ -41,7 +42,7 @@ public class inputTwoValue {
         System.out.println("=================================");
         System.out.println("This is : function ==========JAVA ");
         if (a>b){
-            System.out.println("Used Methods abs() Java : " + abs((int) a, (int) b));
+            System.out.println("Used Methods abs() Java : " +abs((int) a, (int) b));
 
         }
         System.out.println("====================================");
